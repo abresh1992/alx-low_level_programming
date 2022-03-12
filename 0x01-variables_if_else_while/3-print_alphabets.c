@@ -2,18 +2,18 @@
 /**
  * main - Entry point
  *
- * Return 0 (success)
+ * Return: 0 (success)
  */
 int main(void)
 {
 	char a;
 	char A;
 
-	for(a = 'a'; a <= 'z'; a++)
+	for (a = 'a'; a <= 'z'; a++)
 	{
 	putchar(a);
 	}
-        for(A = 'A'; A <= 'Z'; A++)
+	for (A = 'A'; A <= 'Z'; A++)
 	{
 	putchar(A);
 	}
